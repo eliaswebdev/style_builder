@@ -9,7 +9,7 @@ TODO: Delete this and the text above, and describe your gem
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'style_builder'
+gem 'style_builder', git: 'https://github.com/eliaswebdev/style_builder.git', branch: 'master'
 ```
 
 And then execute:
@@ -22,7 +22,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```bash
+rails g addcomp header
+```
 
 ## Development
 
