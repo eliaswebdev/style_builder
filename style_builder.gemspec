@@ -7,8 +7,8 @@ Gem::Specification.new do |spec|
 
   spec.name          = "style_builder"
   spec.version       = StyleBuilder::VERSION
-  spec.authors       = ["Elias Ferreira Junior"]
-  spec.email         = ["eliaswebdev@gmail.com"]
+  spec.authors       = ["Elias Ferreira Junior", "Nelson Junior", "Pablo Henrique"]
+  spec.email         = ["eliaswebdev@gmail.com", "junior123nelson@gmail.com", "pablohenriqdev@gmail.com"]
 
   spec.summary       = %q{Stylesheet generator builder.}
   spec.description   = %q{This gem build a basic structure for stylesheet folders and files.}
