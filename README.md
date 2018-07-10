@@ -22,8 +22,14 @@ Or install it yourself as:
 
 ## Usage
 
+Add a component
 ```bash
 rails g addcomp header
+```
+
+Add a element
+```bash
+rails g addelement button
 ```
 
 ## Development
