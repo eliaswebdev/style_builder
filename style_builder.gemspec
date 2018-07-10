@@ -4,15 +4,20 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "style_builder/version"
 
 Gem::Specification.new do |spec|
+
   spec.name          = "style_builder"
   spec.version       = StyleBuilder::VERSION
   spec.authors       = ["Elias Ferreira Junior"]
   spec.email         = ["eliaswebdev@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Stylesheets generator builder.}
+  spec.description   = %q{This gem build a basic structure for stylesheet folders and files.}
+  # spec.homepage    = 'https://rubygems.org/gems/style_builder'
+  # spec.homepage      = "TODO: Put your gem's website or public repo URL here."
   spec.license       = "MIT"
+
+  # spec.files       = ["lib/style_builder.rb"]
+  spec.metadata    = { "source_code_uri" => "https://github.com/eliaswebdev/style_builder.git" }
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.

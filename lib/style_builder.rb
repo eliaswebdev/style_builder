@@ -1,5 +1,7 @@
 require "style_builder/version"
 
 module StyleBuilder
-  # Your code goes here...
+  def say!
+    puts 'hello'
+  end
 end
